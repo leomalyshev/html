@@ -64,17 +64,12 @@ h1, h2, a, button {
     line-height: 120%;
 }
 
-.main {
-    margin-top: 96px;
-    margin-bottom: 197px;
-    display:flex;
-    align-content: flex-start;
-}
-
 .mainContent {
 	display: flex;
 	justify-content: space-between;
     gap: 40px;
+    margin-top: 96px;
+    margin-bottom: 197px;
 }
 
 .mainContent__leftSide h1 {
@@ -119,11 +114,137 @@ h1, h2, a, button {
     cursor: pointer;
 }
 
-.footer {
-    margin-bottom: 96px;
-}
-
 .logos {
     display: flex;
     justify-content: space-between;
+}
+
+.secondContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:left;
+    padding: 30px;
+    gap: 17px;
+}
+
+.item-highlighted{
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:left;
+    padding: 30px;
+    gap: 17px;
+}
+
+.secondContent h2 {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+}
+
+.secondContent p {
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666;
+}
+
+.secondContent h4 {
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+}
+
+.changeBackground{
+    background: #FAFAFA;
+    min-height: 100vh;
+}
+
+.thirdContent {
+    padding-top: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 682px;
+}
+
+.thirdContent h1 {
+    font-size: 45px;
+    font-family: Gilroy-Bold;
+    padding: 19px;
+}
+
+.thirdContent h2 {
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666;
+}
+
+.forthContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.itemTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    padding: 30px;
+    gap: 30px;
+    background: #FFFFFF;
+}
+
+.itemTwo-highlighted{
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    padding: 30px;
+    gap: 30px;
+    background: #FFFFFF;
+}
+
+.forthContent h2 {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    padding: 50px 30px;
+}
+
+.forthContent p {
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666;
+}
+
+.forthContent_button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: #F25822;
+    color: #ffffff;
+    font-size: 13px;
+    border:none;
+    cursor: pointer;
+    font-family: Gilroy-Bold;
+    line-height: 150%;
 }
