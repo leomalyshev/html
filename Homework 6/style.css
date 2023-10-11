@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #FFFFFF;
+}
+
+img {
+    display:block;
+    max-width: 100%;
+}
+
+h1, h2, a, button {
+    color:#222222;
+    font-family: Lato;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #222222;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.navigationLeft {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.navigationRight {
+    gap: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    background-color: #F1E4E6;
+    height: 764px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainContent__rightSide {
+    border-left: 12px solid #F16D7F;
+    margin-left: 91px;
+    margin-right: 101px;
+    padding-left: 16px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 377px;
+}
+
+.text-red {
+    color: #F16D7F;
+}
+
+.mainContent__rightSide h1 {
+    font-size: 48px;
+}
+
+.mainContent__rightSide h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cardList {
+    margin-top: 65px;
+    margin-bottom: 96px;
+    gap:30px;
+    display: grid;
+    grid-template-rows: 260px 180px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cardList h2 {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.cardList h1 {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cardOne {
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_1.png');
+    width: 360px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardTwo {
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_2.png');
+    width: 360px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardThree {
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_3.png');
+    width: 360px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardFourth {
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_4.png');
+    width: 1140px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    grid-column: span 3;
+}
+
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sectionTwo h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.sectionTwo h2 {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cardListTwo {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    gap:30px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cardListTwo h2 {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.cardListTwo h3 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #BDBDBD;
+}
+
+.cardListTwo h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #F16D7F;
+}
+
+.cardOne__sectionTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cardListTwo_Block {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px;
+    gap: 16px;
+    background-color: #F8F8F8;
+}
+
+.Continue {
+    display: flex;
+    justify-content: center;
+}
+
+.product_button {
+    padding: 15px 39px;
+    font-size: 16px;
+    border: 1px solid #F26376;
+    border-width:1cap;
+    color:#F26376;
+    cursor: pointer;
+    background-color: #FFF;
+    margin-bottom: 60px;
+}
