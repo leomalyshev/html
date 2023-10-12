@@ -35,7 +35,8 @@ h1, h2, a, button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 75px;
+    padding-bottom: 18px;
+    padding-top: 18px;
 }
 
 .navigationLeft {
@@ -52,7 +53,6 @@ h1, h2, a, button {
 
 .main {
     background-color: #F1E4E6;
-    height: 764px;
 }
 
 .mainContent {
@@ -111,8 +111,7 @@ h1, h2, a, button {
 
 .cardOne {
     background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_1.png');
-    width: 360px;
-    height: 260px;
+    padding: 39px 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,8 +120,7 @@ h1, h2, a, button {
 
 .cardTwo {
     background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_2.png');
-    width: 360px;
-    height: 260px;
+    padding: 39px 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,8 +129,7 @@ h1, h2, a, button {
 
 .cardThree {
     background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_3.png');
-    width: 360px;
-    height: 260px;
+    padding: 39px 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,8 +138,7 @@ h1, h2, a, button {
 
 .cardFourth {
     background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_4.png');
-    width: 1140px;
-    height: 180px;
+    padding: 33px 287px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,4 +218,40 @@ h1, h2, a, button {
     cursor: pointer;
     background-color: #FFF;
     margin-bottom: 60px;
+}
+
+@media (min-width:768px) and (max-width:1146px) {
+    .container {
+        max-width: 736px;
+    }
+
+    .mainContent__rightSide {
+        margin-right: 33px;
+        min-width: 283px;
+    }
+
+    .mainContent__rightSide h1 {
+        font-size: 44px;
+    }
+
+    .mainContent__rightSide h2 {
+        font-size: 24px;
+    }
+
+    .cardList {
+        margin-bottom: 110px;
+        gap:20px;
+        grid-template-rows: 230px 115px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cardListTwo {
+        margin-top: 72px;
+        margin-bottom: 32px;
+        gap:16px;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
 }
