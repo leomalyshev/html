@@ -220,7 +220,7 @@ h1, h2, a, button {
     margin-bottom: 60px;
 }
 
-@media (min-width:768px) and (max-width:1146px) {
+@media (min-width:768px) and (max-width:1024px) {
     .container {
         max-width: 736px;
     }
