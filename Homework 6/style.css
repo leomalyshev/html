@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -8,22 +8,25 @@
 
 body {
     scroll-behavior: smooth;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 img {
-    display:block;
+    display: block;
     max-width: 100%;
 }
 
-h1, h2, a, button {
-    color:#222222;
+h1,
+h2,
+a,
+button {
+    color: #222222;
     font-family: Lato;
     font-style: normal;
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -52,7 +55,7 @@ h1, h2, a, button {
 }
 
 .main {
-    background-color: #F1E4E6;
+    background-color: #f1e4e6;
 }
 
 .mainContent {
@@ -62,7 +65,7 @@ h1, h2, a, button {
 }
 
 .mainContent__rightSide {
-    border-left: 12px solid #F16D7F;
+    border-left: 12px solid #f16d7f;
     margin-left: 91px;
     margin-right: 101px;
     padding-left: 16px;
@@ -75,7 +78,7 @@ h1, h2, a, button {
 }
 
 .text-red {
-    color: #F16D7F;
+    color: #f16d7f;
 }
 
 .mainContent__rightSide h1 {
@@ -90,27 +93,26 @@ h1, h2, a, button {
 .cardList {
     margin-top: 65px;
     margin-bottom: 96px;
-    gap:30px;
+    gap: 30px;
     display: grid;
     grid-template-rows: 260px 180px;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .cardList h2 {
-    color: #FFF;
+    color: #fff;
     font-weight: 400;
     font-size: 16px;
-
 }
 
 .cardList h1 {
-    color: #F16D7F;
+    color: #f16d7f;
     font-size: 24px;
     font-weight: 700;
 }
 
 .cardOne {
-    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_1.png');
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_1.png");
     padding: 39px 60px;
     display: flex;
     flex-direction: column;
@@ -119,7 +121,7 @@ h1, h2, a, button {
 }
 
 .cardTwo {
-    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_2.png');
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_2.png");
     padding: 39px 60px;
     display: flex;
     flex-direction: column;
@@ -128,7 +130,7 @@ h1, h2, a, button {
 }
 
 .cardThree {
-    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_3.png');
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_3.png");
     padding: 39px 60px;
     display: flex;
     flex-direction: column;
@@ -137,7 +139,7 @@ h1, h2, a, button {
 }
 
 .cardFourth {
-    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url('./img/section_1_4.png');
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_4.png");
     padding: 33px 287px;
     display: flex;
     flex-direction: column;
@@ -159,7 +161,7 @@ h1, h2, a, button {
 }
 
 .sectionTwo h2 {
-    color: #9F9F9F;
+    color: #9f9f9f;
     font-size: 14px;
     font-weight: 400;
 }
@@ -167,7 +169,7 @@ h1, h2, a, button {
 .cardListTwo {
     margin-top: 48px;
     margin-bottom: 48px;
-    gap:30px;
+    gap: 30px;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
@@ -181,16 +183,16 @@ h1, h2, a, button {
 .cardListTwo h3 {
     font-size: 14px;
     font-weight: 300;
-    color: #BDBDBD;
+    color: #bdbdbd;
 }
 
 .cardListTwo h1 {
     font-size: 16px;
     font-weight: 700;
-    color: #F16D7F;
+    color: #f16d7f;
 }
 
-.cardOne__sectionTwo {
+.card__sectionTwo {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -201,7 +203,7 @@ h1, h2, a, button {
     flex-direction: column;
     padding: 16px 24px;
     gap: 16px;
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
 }
 
 .Continue {
@@ -212,15 +214,15 @@ h1, h2, a, button {
 .product_button {
     padding: 15px 39px;
     font-size: 16px;
-    border: 1px solid #F26376;
-    border-width:1cap;
-    color:#F26376;
+    border: 1px solid #f26376;
+    border-width: 1cap;
+    color: #f26376;
     cursor: pointer;
-    background-color: #FFF;
+    background-color: #fff;
     margin-bottom: 60px;
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .container {
         max-width: 736px;
     }
@@ -240,7 +242,7 @@ h1, h2, a, button {
 
     .cardList {
         margin-bottom: 110px;
-        gap:20px;
+        gap: 20px;
         grid-template-rows: 230px 115px;
         grid-template-columns: repeat(3, 1fr);
     }
@@ -248,10 +250,101 @@ h1, h2, a, button {
     .cardListTwo {
         margin-top: 72px;
         margin-bottom: 32px;
-        gap:16px;
+        gap: 16px;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(2, 1fr);
     }
+}
 
+@media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        width: calc(100vw - 16px);
+        box-sizing: border-box;
+    }
 
+    .hideCard {
+        display: none;
+    }
+
+    .navigationLeft {
+        padding-left: 8px;
+    }
+
+    .navigationRight {
+        padding-right: 8px;
+    }
+
+    .mainContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 363px;
+    }
+
+    .mainContent__rightSide {
+        margin-left: 0;
+        margin-right: 0;
+        min-width: 93px;
+    }
+
+    .mainContent__rightSide h1 {
+        font-size: 38px;
+        font-weight: 900;
+    }
+
+    .mainContent__rightSide h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .cardList {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        gap: 32px;
+        padding: 0px 8px;
+        grid-template-rows: 230px 230px 230px 115px;
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+    }
+
+    .cardOne {
+        padding: 0px;
+        background-position: center;
+        background-size: cover;
+        grid-column: span 1;
+    }
+    .cardTwo {
+        padding: 0px;
+        background-position: center;
+        background-size: cover;
+        grid-column: span 1;
+    }
+    .cardThree {
+        padding: 0px;
+        background-position: center;
+        background-size: cover;
+    }
+    .cardFourth {
+        padding: 0px;
+        background-position: center;
+        background-size: cover;
+        grid-column: span 1;
+    }
+
+    .cardListTwo {
+        margin-top: 64px;
+        margin-bottom: 40px;
+        gap: 16px;
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .card__sectionTwo {
+        padding: 0px 0px;
+    }
+
+    .product_button {
+        margin-bottom: 100px;
+    }
 }
