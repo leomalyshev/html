@@ -1,0 +1,34 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.menu__link:hover {
+    color: red;
+}
+
+.menu__link:active {
+    color:green;
+}
+
+.menu__list:first-child {
+    text-decoration: underline;
+}
+
+.menu__list:last-child {
+    font-weight: bold;
+}
+
+.menu__list:nth-child(3) {
+    background-color: orange;
+}

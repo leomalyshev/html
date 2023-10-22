@@ -1,0 +1,12 @@
+.image {
+    display: inline-block;
+}
+
+img {
+    position: relative;
+    z-index: -1;
+}
+
+.image:hover {
+    background: rgba(0, 255, 255, 0.5);
+}
