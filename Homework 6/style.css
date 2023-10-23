@@ -149,7 +149,7 @@ button {
 }
 
 .mainContent__rightSide {
-    border-left: 12px solid #f16d7f;
+    border-left: 12px solid #c96270;
     margin-left: 91px;
     margin-right: 101px;
     padding-left: 16px;
@@ -162,7 +162,7 @@ button {
 }
 
 .text-red {
-    color: #f16d7f;
+    color: #c96270;
 }
 
 .mainContent__rightSide h1 {
@@ -245,7 +245,7 @@ button {
 }
 
 .sectionTwo h2 {
-    color: #9f9f9f;
+    color: #737272;
     font-size: 14px;
     font-weight: 400;
 }
@@ -267,7 +267,7 @@ button {
 .cardListTwo h3 {
     font-size: 14px;
     font-weight: 300;
-    color: #bdbdbd;
+    color: #737272;
 }
 
 .cardListTwo h1 {
