@@ -67,7 +67,7 @@ button {
     top: -20%;
 }
 
-.basket__Count h1 {
+.basket__Count h2 {
     position: absolute;
     left: 35%;
     top: 5%;
@@ -196,7 +196,7 @@ button {
 }
 
 .cardOne {
-    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_1.png");
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_1.webp");
     padding: 39px 60px;
     display: flex;
     flex-direction: column;
@@ -205,7 +205,7 @@ button {
 }
 
 .cardTwo {
-    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_2.png");
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_2.webp");
     padding: 39px 60px;
     display: flex;
     flex-direction: column;
@@ -214,7 +214,7 @@ button {
 }
 
 .cardThree {
-    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_3.png");
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_3.webp");
     padding: 39px 60px;
     display: flex;
     flex-direction: column;
@@ -223,7 +223,7 @@ button {
 }
 
 .cardFourth {
-    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_4.png");
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url("./img/section_1_4.webp");
     padding: 33px 287px;
     display: flex;
     flex-direction: column;
