@@ -115,12 +115,14 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 140px;
+    justify-content: space-between;
+    padding-right: 30px;
 }
 
 .dropDown__Close {
     cursor: pointer;
     fill:#6f6e6e;
+    
 }
 
 .dropDown__Menu h1 {
@@ -149,7 +151,7 @@ button {
 }
 
 .mainContent__rightSide {
-    border-left: 12px solid #c96270;
+    border-left: 12px solid #f16d7f;
     margin-left: 91px;
     margin-right: 101px;
     padding-left: 16px;
@@ -162,7 +164,7 @@ button {
 }
 
 .text-red {
-    color: #c96270;
+    color: #f16d7f;
 }
 
 .mainContent__rightSide h1 {
@@ -245,7 +247,7 @@ button {
 }
 
 .sectionTwo h2 {
-    color: #737272;
+    color: #9f9f9f;
     font-size: 14px;
     font-weight: 400;
 }
@@ -267,7 +269,7 @@ button {
 .cardListTwo h3 {
     font-size: 14px;
     font-weight: 300;
-    color: #737272;
+    color: #bdbdbd;
 }
 
 .cardListTwo h1 {
