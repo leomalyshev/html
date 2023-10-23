@@ -121,8 +121,7 @@ button {
 
 .dropDown__Close {
     cursor: pointer;
-    fill:#6f6e6e;
-    
+    fill: #6f6e6e;
 }
 
 .dropDown__Menu h1 {
