@@ -18,6 +18,7 @@ img {
 
 h1,
 h2,
+h3,
 a,
 button {
     color: #222222;
@@ -97,7 +98,7 @@ button {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.dropDown h1 {
+.dropDown h2 {
     font-size: 14px;
     font-weight: 400;
 }
@@ -124,11 +125,11 @@ button {
     fill: #6f6e6e;
 }
 
-.dropDown__Menu h1 {
+.dropDown__Menu h2 {
     font-weight: 700;
 }
 
-.dropDown__Gender h1 {
+.dropDown__Gender h2 {
     margin-top: 20px;
     margin-bottom: 12px;
     color: #f16d7f;
@@ -142,7 +143,7 @@ button {
     margin-left: 21px;
 }
 
-.dropDown__Category h2 {
+.dropDown__Category h3 {
     color: rgb(111, 110, 110);
     font-size: 14px;
     font-weight: 400;
@@ -166,11 +167,11 @@ button {
     color: #f16d7f;
 }
 
-.mainContent__rightSide h1 {
+.mainContent__rightSide h2 {
     font-size: 48px;
 }
 
-.mainContent__rightSide h2 {
+.mainContent__rightSide h3 {
     font-size: 32px;
     font-weight: 700;
 }
@@ -184,13 +185,13 @@ button {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.cardList h2 {
+.cardList h3 {
     color: #fff;
     font-weight: 400;
     font-size: 16px;
 }
 
-.cardList h1 {
+.cardList h2 {
     color: #f16d7f;
     font-size: 24px;
     font-weight: 700;
@@ -240,12 +241,12 @@ button {
     text-align: center;
 }
 
-.sectionTwo h1 {
+.sectionTwo h2 {
     font-size: 30px;
     font-weight: 400;
 }
 
-.sectionTwo h2 {
+.sectionTwo h3 {
     color: #9f9f9f;
     font-size: 14px;
     font-weight: 400;
@@ -271,7 +272,7 @@ button {
     color: #bdbdbd;
 }
 
-.cardListTwo h1 {
+.cardListTwo h2 {
     font-size: 16px;
     font-weight: 700;
     color: #f16d7f;
@@ -379,7 +380,7 @@ button {
     max-width: 360px;
 }
 
-.box__sectionFour h1 {
+.box__sectionFour h2 {
     color: #fbfbfb;
     font-weight: 400;
     font-size: 20px;
@@ -388,7 +389,7 @@ button {
     text-align: center;
 }
 
-.box__sectionFour h2 {
+.box__sectionFour h3 {
     color: #fbfbfb;
     text-align: center;
     font-size: 14px;
@@ -422,7 +423,7 @@ button {
     padding-bottom: 130px;
 }
 
-.sectionFive__leftCard h1 {
+.sectionFive__leftCard h2 {
     color: #222224;
     text-align: center;
     font-size: 20px;
@@ -447,14 +448,14 @@ button {
     min-width: 320px;
 }
 
-.sectionFive__rightCard h1 {
+.sectionFive__rightCard h2 {
     color: #222224;
     font-size: 24px;
     font-weight: 700;
     line-height: 170%;
 }
 
-.sectionFive__rightCard h2 {
+.sectionFive__rightCard h3 {
     color: #222224;
     font-size: 18px;
     font-weight: 400;
